@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Ngoyi | Fullstack Developer & AI Student</title>
+
+    <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<!-- ======================== HEADER ======================== -->
+<header>
+    <nav>
+        <div class="logo">NATHAN <span>NGOYI</span><span class="hide-mobile"> — Portfolio</span></div>
+
+        <div class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </div>
+
+        <ul id="navMenu">
+            <li><a href="#about"   onclick="closeMenu()">About</a></li>
+            <li><a href="#work"    onclick="closeMenu()">Work</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            <li class="nav-socials">
+                <a href="https://github.com/nathanmukunga" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nathan-mukunga-ngoyi-74262a321/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ======================== MAIN ======================== -->
+<main>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="line-decorator">
+                <div class="dot"></div>
+                <div class="vline"></div>
+            </div>
+
+            <div class="hero-text">
+                <h1>Hi, I'm<br><span class="highlight">NATHAN</span></h1>
+                <p class="tagline">
+                    AI Engineering Student passionate about building intelligent systems, AI-powered applications,<br>
+                    and modern digital experiences.
+                </p>
+                <div class="hero-btns">
+                    <a href="#work" class="btn-primary">View My Work</a>
+                    <a href="assets/cv-nathan-ngoyi.pdf" class="btn-outline" target="_blank" download>
+                        Download CV <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-hint">Scroll</div>
+    </section>
+
+    <!-- ─── ABOUT ─── -->
+    <section class="overview" id="about">
+        <div class="container">
+            <span class="section-label">Introduction</span>
+            <h2 class="section-title">Overview.</h2>
+            <p class="section-desc"> 
+                I am an AI Engineering student passionate about building intelligent systems and practical digital solutions.
+                My interests include artificial intelligence, machine learning, AI agents, chatbots, automation, and modern web development. I enjoy combining AI technologies with scalable web applications to create interactive and efficient user experiences.
+                I have worked on projects involving AI chatbot integration, machine learning models for prediction and classification, REST API development, and full stack web applications using React, Node.js, Express.js, MongoDB, and MySQL.
+                I am continuously learning and exploring new technologies to improve my skills and contribute to innovative real-world solutions.
+            </p>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-icon"><i class="fas fa-brain"></i></div>
+                        <h3>AI Solutions</h3>
+                        <p>Development of AI-powered applications, chatbots, AI agents, machine learning models, and intelligent automation systems.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-icon"><i class="fas fa-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Modern responsive websites and full stack web applications built using Html, React, Css, Node.js, Express.js, and REST APIs.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-icon"><i class="fas fa-database"></i></div>
+                        <h3>Backend & Databases</h3>
+                        <p>Backend development, database management, API integration, authentication systems, MongoDB, and MySQL.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── WORK EXPERIENCE ─── -->
+    <section class="experience" id="work">
+        <div class="container">
+            <span class="section-label">What I Have Done So Far</span>
+            <h2 class="section-title">Work Experience.</h2>
+
+            <div class="timeline">
+                <div class="timeline-center"></div>
+
+                <!-- LEFT -->
+                <div class="timeline-item left">
+                    <div class="timeline-dot">
+                        <img src="assets/ciu_logo.png" alt="CIU">
+                    </div>
+                    <div class="exp-card">
+                        <div class="exp-date">2024 — Present</div>
+                        <h3>AI Engineering Student / AI Developer</h3>
+                        <span class="company">Academic Projects - CIU</span>
+                        <ul>
+                            <li>Developing AI-based applications including chatbots and intelligent assistants.</li>
+                            <li>Building machine learning models for classification and prediction using Python.</li>
+                            <li>Implementing neural networks and NLP-based solutions for real-world problems.</li>
+                            <li>Working on AI integration with web applications using REST APIs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="timeline-item right">
+                    <div class="timeline-dot">
+                        <img src="assets/ciu_logo.png" alt="Projects">
+                    </div>
+                    <div class="exp-card">
+                        <div class="exp-date">2023 — Present</div>
+                        <h3>Full Stack & AI Developer (Personal Projects)</h3>
+                        <span class="company">Self-Initiated Projects</span>
+                        <ul>
+                            <li>Built full stack web applications using React, Node.js, Express.js, MongoDB, and MySQL.</li>
+                            <li>Developed REST APIs and backend systems for dynamic applications.</li>
+                            <li>Created AI chatbot systems and automation workflows using Python and n8n.</li>
+                            <li>Designed and deployed complete end-to-end web applications independently.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── TECH STACK ─── -->
+    <section class="tech">
+    <div class="container">
+        <h2 class="section-title">My Tech Stack</h2>
+        <h4 style="font-weight: normal; text-align: center;">Technologies I use to build AI systems and scalable applications</h4>
+
+        <div class="tech-container">
+
+            <!-- AI / DATA -->
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                </div>
+                <span>Python</span>
+            </div>
+
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow">
+                </div>
+                <span>TensorFlow</span>
+            </div>
+
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas">
+                </div>
+                <span>Pandas</span>
+            </div>
+
+            <!-- BACKEND -->
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS">
+                </div>
+                <span>Node.js</span>
+            </div>
+
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express">
+                </div>
+                <span>Express.js</span>
+            </div>
+
+            <!-- DATABASE -->
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                </div>
+                <span>MongoDB</span>
+            </div>
+
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                </div>
+                <span>MySQL</span>
+            </div>
+
+            <!-- FRONTEND (moins dominant) -->
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                </div>
+                <span>React</span>
+            </div>
+
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                </div>
+                <span>JavaScript</span>
+            </div>
+
+            <!-- TOOLS -->
+            <div class="tech-icon">
+                <div class="ball">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                </div>
+                <span>Git</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+    </section>
+
+    <!-- ─── PROJECTS ─── -->
+    <section class="projects">
+        <div class="container">
+            <span class="section-label">My Work</span>
+            <h2 class="section-title">Projects.</h2>
+            <p class="section-desc">A selection of AI, machine learning, and full stack applications I have built.</p>
+
+            <div class="projects-grid">
+                <!-- PROJECT 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800" alt="Hybrid RAG System">
+                        
+                        <div class="project-links">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Hybrid RAG Retrieval System</h3>
+
+                        <p>
+                            Built an intelligent Hybrid Retrieval-Augmented Generation (RAG) system combining keyword-based retrieval (BM25) and semantic vector search using embeddings and ChromaDB. Implemented document chunking, semantic indexing, hybrid fusion, and context-aware response generation using Python and NLP techniques.
+                        </p>
+
+                        <div class="project-tags">
+                            <span class="tag blue">#Python</span>
+                            <span class="tag red">#RAG</span>
+                            <span class="tag green">#NLP</span>
+                            <span class="tag pink">#ChromaDB</span>
+                            <span class="tag blue">#BM25</span>
+                            <span class="tag red">#Embeddings</span>
+                            <span class="tag green">#HybridRetrieval</span>
+                            <span class="tag pink">#Transformers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/ioT.png" alt="IoT Smart Robot Car">
+                        
+                        <div class="project-links">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>IoT Smart Robot Car Using ESP32</h3>
+
+                        <p>
+                            Designed and developed an IoT-based smart robot car using ESP32 with WiFi remote control, obstacle avoidance, GPS tracking, and a real-time web dashboard for monitoring and navigation.
+                        </p>
+
+                        <div class="project-tags">
+                            <span class="tag blue">#ESP32</span>
+                            <span class="tag red">#IoT</span>
+                            <span class="tag green">#EmbeddedSystems</span>
+                            <span class="tag pink">#Robotics</span>
+                            <span class="tag green">#GPS</span>
+                            <span class="tag red">#C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800" alt="Deep Learning Medical Project">
+
+                        <div class="project-links">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Heart Attack Analysis & Prediction</h3>
+
+                        <p>
+                            Developed deep learning models for heart attack risk classification andand oxygen saturation forecasting using DNN and LSTM architectures. 
+                            Applied medical data preprocessing, time-series analysis, and predictive modeling techniques on Kaggle healthcare datasets.
+                        </p>
+
+                        <div class="project-tags">
+                            <span class="tag blue">#Python</span>
+                            <span class="tag red">#DeepLearning</span>
+                            <span class="tag green">#DNN</span>
+                            <span class="tag pink">#LSTM</span>
+                            <span class="tag blue">#TensorFlow</span>
+                            <span class="tag red">#Keras</span>
+                            <span class="tag green">#HealthcareAI</span>
+                            <span class="tag pink">#TimeSeries</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PROJECT 4 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?auto=format&fit=crop&q=80&w=800" alt="CNN Digit Recognition Project">
+
+                        <div class="project-links">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <a href="#" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Handwritten Digit Recognition</h3>
+
+                        <p>
+                            Developed a Convolutional Neural Network (CNN) model for handwritten digit classification using image preprocessing and deep learning techniques. 
+                            Trained the model to recognize and predict numerical digits from handwritten image inputs.
+                        </p>
+
+                        <div class="project-tags">
+                            <span class="tag blue">#Python</span>
+                            <span class="tag red">#DeepLearning</span>
+                            <span class="tag green">#CNN</span>
+                            <span class="tag pink">#ComputerVision</span>
+                            <span class="tag blue">#TensorFlow</span>
+                            <span class="tag red">#Keras</span>
+                            <span class="tag green">#ImageClassification</span>
+                            <span class="tag pink">#OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJECT 4 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/neareast.jpg" alt="Full Stack App">
+                        <div class="project-links">
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Full Stack Web Applications</h3>
+                        <p>Built responsive web applications with authentication, REST APIs, and database integration.</p>
+                        <div class="project-tags">
+                            <span class="tag blue">#React</span>
+                            <span class="tag blue">#Node.js</span>
+                            <span class="tag green">#MongoDB</span>
+                            <span class="tag pink">#Express</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── RESEARCH ─── -->
+    <section class="research-section" id="blog">
+        <div class="container">
+            <span class="section-label">Research & Learning</span>
+            <h2 class="section-title">AI Exploration.</h2>
+
+            <p class="section-desc">
+                I continuously explore advanced topics in Artificial Intelligence, machine learning systems, and intelligent applications through hands-on research and implementation.
+            </p>
+
+            <div class="research-grid">
+
+                <!-- RAG -->
+                <div class="research-card">
+                    <div class="research-date">2026 — Retrieval-Augmented Generation (RAG)</div>
+                    <p>
+                        Studying hybrid search architectures combining embeddings, vector databases, and semantic retrieval to build intelligent AI assistants.
+                    </p>
+                    <div class="research-status">
+                        <span class="pulse"></span> In Progress
+                    </div>
+                </div>
+
+                <!-- AI SYSTEMS -->
+                <div class="research-card">
+                    <div class="research-date">2026 — AI Agents & Automation</div>
+                    <p>
+                        Exploring AI agents, workflow automation (n8n), and autonomous systems capable of executing multi-step tasks and decision-making processes.
+                    </p>
+                    <div class="research-status">
+                        <span class="pulse"></span> In Progress
+                    </div>
+                </div>
+
+                <!-- IOT / DATA -->
+                <div class="research-card">
+                    <div class="research-date">2026 — IoT & Predictive Systems</div>
+                    <p>
+                        Working on sensor-based systems (MPU6050, DS18B20, ACS712) for real-time data collection and predictive maintenance using machine learning.
+                    </p>
+                    <div class="research-status">
+                        <span class="pulse"></span> In Progress
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Contact.</h2>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" placeholder="What's your name?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" placeholder="What's your email?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="msg">Your Message</label>
+                        <textarea id="msg" rows="7" placeholder="What do you want to say?" required></textarea>
+                    </div>
+                    <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ======================== FOOTER ======================== -->
+<footer>
+    <div class="container">
+        <p>© 2026 NATHAN MUKUNGA NGOYI. All rights reserved.</p>
+        <div class="footer-socials">
+            <a href="https://github.com/nathanmukunga" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/nathan-mukunga-ngoyi-74262a321/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/nathan_ngoyi_" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://wa.me/+243825646290" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const toggle = document.getElementById('navToggle');
+    const menu   = document.getElementById('navMenu');
+
+    toggle.addEventListener('click', () => {
+        toggle.classList.toggle('open');
+        menu.classList.toggle('open');
+    });
+
+    function closeMenu() {
+        toggle.classList.remove('open');
+        menu.classList.remove('open');
+    }
+</script>
+
+</body>
+</html>
