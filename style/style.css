@@ -475,7 +475,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 28px;
+        gap: 25px;
         margin-top: 48px;
     }
 
@@ -900,4 +900,19 @@
     }
 
 
+    /* ============================================
+       EXPERIENCE - PERSONAL PROJECTS NEXIS SECTION 
+    ============================================ */
+.exp-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #00c2ff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
 
+.exp-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
